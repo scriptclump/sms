@@ -1,5 +1,6 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
+import { freeSet } from '@coreui/icons';
 
 const _nav =  [
   {
@@ -44,6 +45,78 @@ const _nav =  [
         to: '/base/collapses',
       }
     ],
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Students',
+    to: '/theme/colors',
+    icon: 'cil-child',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Teachers',
+    to: '/theme/colors',
+    icon: 'cil-blind',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Exams',
+    to: '/theme/colors',
+    icon: 'cil-paperclip',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Payments',
+    to: '/theme/colors',
+    icon: 'cil-credit-card',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Laibrary',
+    to: '/theme/colors',
+    icon: 'cil-library-building',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Hobby Growth',
+    to: '/theme/colors',
+    icon: 'cil-weightlifitng',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Reports',
+    to: '/theme/colors',
+    icon: 'cil-chart',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Attendence',
+    to: '/theme/colors',
+    icon: 'cil-clock',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Classes & Sections',
+    to: '/theme/colors',
+    icon: 'cil-education',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Course Curriculam',
+    to: '/theme/colors',
+    icon: 'cib-buffer',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Leaves',
+    to: '/theme/colors',
+    icon: 'cil-task',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Certificates',
+    to: '/theme/colors',
+    icon: 'cil-star',
   },
   {
     _tag: 'CSidebarNavTitle',
