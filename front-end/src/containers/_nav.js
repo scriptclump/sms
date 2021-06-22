@@ -90,7 +90,7 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'Pages',
-        to: '/base/breadcrumbs',
+        to: '/content/pages',
       },
       {
         _tag: 'CSidebarNavItem',

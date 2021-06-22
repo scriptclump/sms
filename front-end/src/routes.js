@@ -37,10 +37,16 @@ const Typography = React.lazy(() => import('./views/theme/typography/Typography'
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'));
 const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
+// New includes
+const PageList = React.lazy(() => import('./views/content/pages/list'));
+const PageCreate = React.lazy(() => import('./views/content/pages/create'));
+
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
+  { path: '/content/pages/create', name: 'Create Page', component: PageCreate },
+  { path: '/content/pages', name: 'List Page', component: PageList },
   { path: '/theme', name: 'Theme', component: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
