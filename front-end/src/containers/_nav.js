@@ -7,56 +7,31 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Dashboard',
     to: '/dashboard',
-    icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    }
-  },
-  {
-    _tag: 'CSidebarNavDropdown',
-    name: 'Content Management',
-    route: '/base',
-    icon: 'cil-pencil',
-    _children: [
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Pages',
-        to: '/base/breadcrumbs',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'FAQs',
-        to: '/base/cards',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Banners',
-        to: '/base/carousels',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Announcements & Notices',
-        to: '/base/collapses',
-      },
-      {
-        _tag: 'CSidebarNavItem',
-        name: 'Holidays',
-        to: '/base/collapses',
-      }
-    ],
-  },
+    icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>
+  },  
   {
     _tag: 'CSidebarNavItem',
     name: 'Students',
     to: '/theme/colors',
-    icon: 'cil-child',
+    icon: 'cil-running',
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Teachers',
     to: '/theme/colors',
-    icon: 'cil-blind',
+    icon: 'cil-fire',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Classes & Sections',
+    to: '/theme/colors',
+    icon: 'cil-education',
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Course Curriculam',
+    to: '/theme/colors',
+    icon: 'cil-book',
   },
   {
     _tag: 'CSidebarNavItem',
@@ -93,19 +68,7 @@ const _nav =  [
     name: 'Attendence',
     to: '/theme/colors',
     icon: 'cil-clock',
-  },
-  {
-    _tag: 'CSidebarNavItem',
-    name: 'Classes & Sections',
-    to: '/theme/colors',
-    icon: 'cil-education',
-  },
-  {
-    _tag: 'CSidebarNavItem',
-    name: 'Course Curriculam',
-    to: '/theme/colors',
-    icon: 'cib-buffer',
-  },
+  },  
   {
     _tag: 'CSidebarNavItem',
     name: 'Leaves',
@@ -117,6 +80,39 @@ const _nav =  [
     name: 'Certificates',
     to: '/theme/colors',
     icon: 'cil-star',
+  },
+  {
+    _tag: 'CSidebarNavDropdown',
+    name: 'Content Management',
+    route: '/base',
+    icon: 'cil-pencil',
+    _children: [
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Pages',
+        to: '/base/breadcrumbs',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'FAQs',
+        to: '/base/cards',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Banners',
+        to: '/base/carousels',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Announcements & Notices',
+        to: '/base/collapses',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Holidays',
+        to: '/base/collapses',
+      }
+    ],
   },
   {
     _tag: 'CSidebarNavTitle',
@@ -133,7 +129,7 @@ const _nav =  [
     name: 'Typography',
     to: '/theme/typography',
     icon: 'cil-pencil',
-  },
+  }, 
   {
     _tag: 'CSidebarNavTitle',
     _children: ['Components']

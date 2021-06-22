@@ -127,7 +127,17 @@ import {
   cilUserUnfollow,
   cilX,
   cilXCircle,
-  cilWarning
+  cilWarning,
+  cilBlind,
+  cilChild,
+  cilLibraryBuilding,
+  cilWeightlifitng,
+  cilChart,
+  cilClock,
+  cilEducation,
+  cilBook,
+  cilFire,
+  cilRunning
 } from '@coreui/icons'
 
 export const icons = Object.assign({}, {
@@ -225,7 +235,17 @@ export const icons = Object.assign({}, {
   cilUserUnfollow,
   cilX,
   cilXCircle,
-  cilWarning
+  cilWarning,
+  cilBlind,
+  cilChild,
+  cilLibraryBuilding,
+  cilWeightlifitng,
+  cilChart,
+  cilClock,
+  cilEducation,
+  cilBook,
+  cilFire,
+  cilRunning
 }, {
   cifUs,
   cifBr,

@@ -4,4 +4,3 @@ A sample application for schools.
 ## Tech Stack
 - MERN
 - React Native
-- 
