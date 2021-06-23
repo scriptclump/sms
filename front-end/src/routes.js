@@ -38,16 +38,29 @@ const Widgets = React.lazy(() => import('./views/widgets/Widgets'));
 const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
 // New includes
-const PageList = React.lazy(() => import('./views/content/pages/list'));
-const PageCreate = React.lazy(() => import('./views/content/pages/create'));
-const AnnouncementList = React.lazy(() => import('./views/content/announcements/list'));
-const AnnouncementCreate = React.lazy(() => import('./views/content/announcements/create'));
-const BannerList = React.lazy(() => import('./views/content/banners/list'));
-const BannerCreate = React.lazy(() => import('./views/content/banners/create'));
-const FaqList = React.lazy(() => import('./views/content/faqs/list'));
-const FaqCreate = React.lazy(() => import('./views/content/faqs/create'));
-const HolidayList = React.lazy(() => import('./views/content/holidays/list'));
-const HolidayCreate = React.lazy(() => import('./views/content/holidays/create'));
+const PageList = React.lazy(() => import('./views/contents/pages/list'));
+const PageCreate = React.lazy(() => import('./views/contents/pages/create'));
+const AnnouncementList = React.lazy(() => import('./views/contents/announcements/list'));
+const AnnouncementCreate = React.lazy(() => import('./views/contents/announcements/create'));
+const BannerList = React.lazy(() => import('./views/contents/banners/list'));
+const BannerCreate = React.lazy(() => import('./views/contents/banners/create'));
+const FaqList = React.lazy(() => import('./views/contents/faqs/list'));
+const FaqCreate = React.lazy(() => import('./views/contents/faqs/create'));
+const HolidayList = React.lazy(() => import('./views/contents/holidays/list'));
+const HolidayCreate = React.lazy(() => import('./views/contents/holidays/create'));
+const Students = React.lazy(() => import('./views/students/list'));
+const Teachers = React.lazy(() => import('./views/teachers/list'));
+const Attendence = React.lazy(() => import('./views/attendences/list'));
+const Certificates = React.lazy(() => import('./views/certificates/list'));
+const Classes = React.lazy(() => import('./views/classes/list'));
+const Courses = React.lazy(() => import('./views/courses/list'));
+const Exams = React.lazy(() => import('./views/exams/list'));
+const Hobbies = React.lazy(() => import('./views/hobby/list'));
+const Leaves = React.lazy(() => import('./views/leaves/list'));
+const Libraries = React.lazy(() => import('./views/library/list'));
+const Payments = React.lazy(() => import('./views/payments/list'));
+const Reports = React.lazy(() => import('./views/reports/list'));
+
 
 
 
@@ -65,6 +78,21 @@ const routes = [
   { path: '/content/faqs', name: 'FAQs', component: FaqList },
   { path: '/content/holidays/create', name: 'Add Holiday', component: HolidayCreate },
   { path: '/content/holidays', name: 'Holidays', component: HolidayList }, 
+
+  { path: '/students', name: 'Students', component: Students },
+  { path: '/teachers', name: 'Teachers', component: Teachers },
+  { path: '/attendence', name: 'Attendence', component: Attendence },
+  { path: '/certificates', name: 'Certificates', component: Certificates },
+  { path: '/classes', name: 'Classes', component: Classes },
+  { path: '/courses', name: 'Courses', component: Courses },
+  { path: '/exams', name: 'Exams', component: Exams },
+  { path: '/hobbies', name: 'Hobbies', component: Hobbies },
+  { path: '/leaves', name: 'Leaves', component: Leaves },
+  { path: '/libraries', name: 'Libraries', component: Libraries },
+  { path: '/payments', name: 'Payments', component: Payments },
+  { path: '/reports', name: 'Reports', component: Reports },
+
+
   { path: '/theme', name: 'Theme', component: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },
