@@ -27,9 +27,15 @@ const fields = ['name','registered', 'role', 'status']
 const PageList = () => {
   return (
     <CRow>
-      <CCol xs="12">
+      <CCol xs="12" md="12">
         <CCard>
-          {/* <button class="btn btn-primary">Add New Page</button> */}
+          <CCardHeader>
+            <CLink to="/content/pages/create" className="btn btn-primary">Add New Page</CLink>
+          </CCardHeader>         
+        </CCard>
+      </CCol>
+      <CCol xs="12">
+        <CCard>   
           <CCardHeader>
             Pages
           </CCardHeader>

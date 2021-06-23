@@ -47,7 +47,7 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'Laibrary',
+    name: 'Library',
     to: '/theme/colors',
     icon: 'cil-library-building',
   },
