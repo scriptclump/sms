@@ -30,14 +30,14 @@ const AnnouncementList = () => {
       <CCol xs="12" md="12">
         <CCard>
           <CCardHeader>
-            <CLink to="/content/pages/create" className="btn btn-primary">Add New Page</CLink>
+            <CLink to="/content/announcements/create" className="btn btn-primary">Add New Announcement</CLink>
           </CCardHeader>         
         </CCard>
       </CCol>
       <CCol xs="12">
         <CCard accentColor="primary">   
           <CCardHeader>
-            Pages
+            Announcements
           </CCardHeader>
           <CCardBody>
             <CDataTable

@@ -10,11 +10,10 @@ import {
   CCardFooter,
   CButton,
   CCol,
-  CRow
+  CRow,
+  CSwitch
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-import { DocsLink } from 'src/reusable'
-import routes from '../../../routes'
 
 const PageCreate = () => {
   return (
@@ -43,6 +42,14 @@ const PageCreate = () => {
                       rows="9"
                       placeholder="Content..." 
                     />
+              </CFormGroup>
+            </CCol>
+          </CRow>
+          <CRow>
+            <CCol xs="12">
+              <CFormGroup>
+                <CSwitch className={'mx-1'} shape={'pill'} color={'primary'} labelOn={'\u2713'} labelOff={'\u2715'} defaultChecked />
+                <CLabel htmlFor="name">Publish</CLabel>
               </CFormGroup>
             </CCol>
           </CRow>
@@ -79,6 +86,10 @@ const PageCreate = () => {
                       rows="4"
                       placeholder="Meta Description..." 
                     />
+          </CFormGroup>
+          <CFormGroup>
+            <CLabel htmlFor="company">URL</CLabel>
+            <CInput id="name" placeholder="Enter URL" required />
           </CFormGroup>
         </CCardBody>
         <CCardFooter>

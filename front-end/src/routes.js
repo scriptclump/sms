@@ -78,7 +78,6 @@ const routes = [
   { path: '/content/faqs', name: 'FAQs', component: FaqList },
   { path: '/content/holidays/create', name: 'Add Holiday', component: HolidayCreate },
   { path: '/content/holidays', name: 'Holidays', component: HolidayList }, 
-
   { path: '/students', name: 'Students', component: Students },
   { path: '/teachers', name: 'Teachers', component: Teachers },
   { path: '/attendence', name: 'Attendence', component: Attendence },
