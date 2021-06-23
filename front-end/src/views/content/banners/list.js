@@ -24,7 +24,7 @@ const getBadge = status => {
 }
 const fields = ['name','registered', 'role', 'status']
 
-const PageList = () => {
+const BannerList = () => {
   return (
     <CRow>
       <CCol xs="12" md="12">
@@ -67,4 +67,4 @@ const PageList = () => {
   )
 }
 
-export default PageList
+export default BannerList

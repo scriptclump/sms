@@ -40,13 +40,31 @@ const User = React.lazy(() => import('./views/users/User'));
 // New includes
 const PageList = React.lazy(() => import('./views/content/pages/list'));
 const PageCreate = React.lazy(() => import('./views/content/pages/create'));
+const AnnouncementList = React.lazy(() => import('./views/content/announcements/list'));
+const AnnouncementCreate = React.lazy(() => import('./views/content/announcements/create'));
+const BannerList = React.lazy(() => import('./views/content/banners/list'));
+const BannerCreate = React.lazy(() => import('./views/content/banners/create'));
+const FaqList = React.lazy(() => import('./views/content/faqs/list'));
+const FaqCreate = React.lazy(() => import('./views/content/faqs/create'));
+const HolidayList = React.lazy(() => import('./views/content/holidays/list'));
+const HolidayCreate = React.lazy(() => import('./views/content/holidays/create'));
+
+
 
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
-  { path: '/content/pages/create', name: 'Create Page', component: PageCreate },
-  { path: '/content/pages', name: 'List Page', component: PageList },
+  { path: '/content/pages/create', name: 'Add Page', component: PageCreate },
+  { path: '/content/pages', name: 'Pages', component: PageList },
+  { path: '/content/announcements/create', name: 'Add Announcement & Notice', component: AnnouncementCreate },
+  { path: '/content/announcements', name: 'Announcements & Notices', component: AnnouncementList },
+  { path: '/content/banners/create', name: 'Add Banner', component: BannerCreate },
+  { path: '/content/banners', name: 'Banners', component: BannerList },
+  { path: '/content/faqs/create', name: 'Add FAQ', component: FaqCreate },
+  { path: '/content/faqs', name: 'FAQs', component: FaqList },
+  { path: '/content/holidays/create', name: 'Add Holiday', component: HolidayCreate },
+  { path: '/content/holidays', name: 'Holidays', component: HolidayList }, 
   { path: '/theme', name: 'Theme', component: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', component: Colors },
   { path: '/theme/typography', name: 'Typography', component: Typography },

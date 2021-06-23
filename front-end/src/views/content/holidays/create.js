@@ -16,7 +16,7 @@ import CIcon from '@coreui/icons-react'
 import { DocsLink } from 'src/reusable'
 import routes from '../../../routes'
 
-const PageCreate = () => {
+const HolidayCreate = () => {
   return (
     <CRow>
     <CCol xs="12" sm="8">
@@ -90,4 +90,4 @@ const PageCreate = () => {
   )
 }
 
-export default PageCreate
+export default HolidayCreate

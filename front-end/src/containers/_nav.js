@@ -95,22 +95,22 @@ const _nav =  [
       {
         _tag: 'CSidebarNavItem',
         name: 'FAQs',
-        to: '/base/cards',
+        to: '/content/faqs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Banners',
-        to: '/base/carousels',
+        to: '/content/banners',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Announcements & Notices',
-        to: '/base/collapses',
+        to: '/content/announcements',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Holidays',
-        to: '/base/collapses',
+        to: '/content/holidays',
       }
     ],
   },
