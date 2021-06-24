@@ -77,16 +77,16 @@ const AnnouncementCreate = () => {
             <CRow>
               <CCol>
                 <CFormGroup row>
-                  <CCol md="3">
+                  <CCol md="1">
                     <CLabel htmlFor="date-input">From</CLabel>
                   </CCol>
-                  <CCol xs="12" md="3">
+                  <CCol xs="12" md="5">
                     <CInput type="date" id="date-input" name="date-input" placeholder="date" />
                   </CCol>
-                  <CCol md="3">
+                  <CCol md="1">
                     <CLabel htmlFor="date-input">To</CLabel>
                   </CCol>
-                  <CCol xs="12" md="3">
+                  <CCol xs="12" md="5">
                     <CInput type="date" id="date-input" name="date-input" placeholder="date" />
                   </CCol>
                 </CFormGroup>
